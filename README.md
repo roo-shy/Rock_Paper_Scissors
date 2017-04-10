@@ -1,4 +1,4 @@
-# Rock_Paper_Scissors
+## Rock_Paper_Scissors
 
 * The game should ask player 1 for their choice of "rock", "paper", or "scissors". (use gets)
 
@@ -12,12 +12,14 @@
 
 * Scissors beats Paper
 
-Code outline:
+### Code outline:
 
+```
 class Game
   attr_accessor :player_one_choice, :computer
 end
 
 game = Game.new
 game.play
+```
 
